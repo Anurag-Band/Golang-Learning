@@ -76,5 +76,26 @@ func main() {
 	// 	fmt.Println(i)
 	// }
 
-	
+	//? if else if conditions
+
+	// age := 13
+
+	// if age >= 18 {
+	// 	fmt.Println("you are an adult")
+	// } else if age >= 12 {
+	// 	fmt.Println("you are a teenager")
+	// } else {
+	// 	fmt.Println("you are a kid")
+	// }
+
+	//? we can declear a variable inside if construct
+
+	// if age := 13; age >= 18 {
+	// 	fmt.Println("you are an adult")
+	// } else if age >= 12 {
+	// 	fmt.Println("you are a teenager")
+	// } else {
+	// 	fmt.Println("you are a kid")
+	// }
+
 }
