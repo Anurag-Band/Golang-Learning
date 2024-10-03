@@ -1,9 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
 // const outAge = 12
 
 // var newName string = "Param"
@@ -128,17 +124,17 @@ func main() {
 
 	//? type switch
 
-	whoAmI := func(i interface{}) {
-		switch i.(type) {
-		case int:
-			fmt.Println("it's an Integer")
-		case bool:
-			fmt.Println("it's a Boolean")
-		case float32, float64:
-			fmt.Println("it's a floating num")
-		default:
-			fmt.Println("it's of other category")
-		}
-	}
-	whoAmI("ANurag")
+	// whoAmI := func(i interface{}) {
+	// 	switch i.(type) {
+	// 	case int:
+	// 		fmt.Println("it's an Integer")
+	// 	case bool:
+	// 		fmt.Println("it's a Boolean")
+	// 	case float32, float64:
+	// 		fmt.Println("it's a floating num")
+	// 	default:
+	// 		fmt.Println("it's of other category")
+	// 	}
+	// }
+	// whoAmI("ANurag")
 }
