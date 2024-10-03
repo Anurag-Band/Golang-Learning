@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 // const outAge = 12
 
 // var newName string = "Param"
@@ -137,4 +139,27 @@ func main() {
 	// 	}
 	// }
 	// whoAmI("ANurag")
+
+	//? arrays 
+	// - fixed length - use when data is predictable
+	// - Memory Optimization
+	// - Constant time access
+	
+
+	// var name [4]string
+	// name[0] = "Anurag" //? others will be empty strings
+	// fmt.Println(name)
+
+	// number := [5]int{10} //? others will be Zero
+	// fmt.Println(number)
+
+	// var bool [5]bool
+	// bool[2] = true //? others will be false
+	// fmt.Println(bool)
+
+	//? 3d arrays
+	twoDarray := [3][3]int{{12, 34, 45}, {56, 76, 78}, {11, 22, 33}}
+
+	fmt.Println(twoDarray)
+
 }
