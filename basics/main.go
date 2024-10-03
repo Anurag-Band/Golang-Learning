@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 // const outAge = 12
 
 // var newName string = "Param"
@@ -140,17 +138,16 @@ func main() {
 	// }
 	// whoAmI("ANurag")
 
-	//? arrays 
+	//? arrays
 	// - fixed length - use when data is predictable
 	// - Memory Optimization
 	// - Constant time access
 
+	// var name [4]string
+	// name[0] = "Anurag" //? others will be empty strings
+	// fmt.Println(name)
 
-	var name [4]string
-	name[0] = "Anurag" //? others will be empty strings
-	fmt.Println(name)
-
-	fmt.Println(len(name))
+	// fmt.Println(len(name))
 
 	// number := [5]int{10} //? others will be Zero
 	// fmt.Println(number)
@@ -164,7 +161,48 @@ func main() {
 
 	// fmt.Println(twoDarray)
 
+	//? slice -> dynamic
+	// - most used construct in go
 
-	
+	//  uninitialized slice is nil by default
+
+	// var nums []int
+	// fmt.Println(nums == nil)
+	// fmt.Println(len(nums))
+
+	// to add values while initializing slices use make()
+
+	// var numbers = make([]int, 3, 5)
+	//? zero is added initially
+	//? - it will double size after given size is passed
+	//? - third parameter is to set maximum size initially
+	//? - but this will also increase dynamically as we will as elements
+
+	// numbers = append(numbers, 12)
+	// numbers = append(numbers, 12)
+	// numbers = append(numbers, 12)
+	// numbers = append(numbers, 12)
+	// numbers = append(numbers, 12)
+
+	// fmt.Println(numbers)
+
+	//? capacity -> maximum numbers of elements can fit (this is minimum, but will change dynamically)
+	// fmt.Println(cap(numbers))
+
+	// //? Array vs Slices ->>
+	// Initialize an array of 5 integers
+	// arr := [5]int{1, 2, 3, 4, 5}
+	// arr[6] = 12 //? this will give error cause its range bound
+
+	// Initialize a slice of integers
+	// slice := []int{1, 2, 3, 4, 5}
+	// slice[6] = 12 //? this will give error cause its range bound
+
+	// fmt.Println("Array:", arr)
+	// fmt.Println("Slice:", slice)
+
+	// Append a new value to the slice
+	// slice = append(slice, 12) //? This adds '12' to the end of the slice 
+	//? - append() method will be dynamic slice
 
 }
