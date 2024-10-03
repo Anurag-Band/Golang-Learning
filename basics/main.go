@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 // const outAge = 12
 
 // var newName string = "Param"
@@ -144,9 +146,11 @@ func main() {
 	// - Constant time access
 
 
-	// var name [4]string
-	// name[0] = "Anurag" //? others will be empty strings
-	// fmt.Println(name)
+	var name [4]string
+	name[0] = "Anurag" //? others will be empty strings
+	fmt.Println(name)
+
+	fmt.Println(len(name))
 
 	// number := [5]int{10} //? others will be Zero
 	// fmt.Println(number)
