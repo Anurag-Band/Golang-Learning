@@ -1,5 +1,9 @@
 package main
 
+import (
+	"fmt"
+)
+
 // const outAge = 12
 
 // var newName string = "Param"
@@ -98,4 +102,43 @@ func main() {
 	// 	fmt.Println("you are a kid")
 	// }
 
+	//? simple switch case
+
+	// 	num := 4
+
+	// 	switch {
+	// 	case num == 1:
+	// 		fmt.Println("One")
+	// 	case num == 2:
+	// 		fmt.Println("Two")
+	// 	case num == 3:
+	// 		fmt.Println("Three")
+	// 	default:
+	// 		fmt.Println("Other Number")
+	// 	}
+
+	//? multiple condition switch
+
+	// switch time.Now().Weekday() {
+	// case time.Saturday, time.Sunday:
+	// 	fmt.Println("today is Holiday")
+	// default:
+	// 	fmt.Println("today is Workday")
+	// }
+
+	//? type switch
+
+	whoAmI := func(i interface{}) {
+		switch i.(type) {
+		case int:
+			fmt.Println("it's an Integer")
+		case bool:
+			fmt.Println("it's a Boolean")
+		case float32, float64:
+			fmt.Println("it's a floating num")
+		default:
+			fmt.Println("it's of other category")
+		}
+	}
+	whoAmI("ANurag")
 }
