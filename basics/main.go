@@ -214,4 +214,11 @@ func main() {
 	// copy(num2, num1)
 	// fmt.Println(num1, num2)
 
+
+	//? slice operator
+
+	// var nums = []int{1,2,3,4,5}
+
+	// fmt.Println(nums[0:2])
+	// fmt.Println(nums[:5])
 }
