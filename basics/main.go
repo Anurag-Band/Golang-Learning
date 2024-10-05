@@ -220,5 +220,7 @@ func main() {
 	// var nums = []int{1,2,3,4,5}
 
 	// fmt.Println(nums[0:2])
-	// fmt.Println(nums[:5])
+	// fmt.Println(nums[:5]) //? start with 0 till end number
+	// fmt.Println(nums[2:]) //? start with 2 till last element
+	
 }
