@@ -222,5 +222,14 @@ func main() {
 	// fmt.Println(nums[0:2])
 	// fmt.Println(nums[:5]) //? start with 0 till end number
 	// fmt.Println(nums[2:]) //? start with 2 till last element
+
+	//? slices methods
+
+	//? Equal() - for comparing two slices
+	// var num1 = []int{1,2,3}
+	// var num2 = []int{3,2,1}
+
+	// fmt.Println(slices.Equal(num1,num2))
+
 	
 }
