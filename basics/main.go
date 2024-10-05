@@ -231,5 +231,10 @@ func main() {
 
 	// fmt.Println(slices.Equal(num1,num2))
 
-	
+	//? 2d slices
+
+	// twoDslice := [][]int{{12, 34}, {56, 76}}
+
+	// fmt.Println(twoDslice)
+
 }
