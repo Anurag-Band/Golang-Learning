@@ -202,7 +202,16 @@ func main() {
 	// fmt.Println("Slice:", slice)
 
 	// Append a new value to the slice
-	// slice = append(slice, 12) //? This adds '12' to the end of the slice 
+	// slice = append(slice, 12) //? This adds '12' to the end of the slice
 	//? - append() method will be dynamic slice
+
+	//? copy function
+
+	// var num1 = make([]int, 2, 5)
+	// num1 = append(num1, 2, 4)
+	// var num2 = make([]int, len(num1))
+
+	// copy(num2, num1)
+	// fmt.Println(num1, num2)
 
 }
