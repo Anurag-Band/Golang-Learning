@@ -304,4 +304,27 @@ func main() {
 	// 	fmt.Println("Price not found or not an integer.")
 	// }
 
+	//? range
+
+	// mySlice := []int{5,6,7,87,98,}
+	// for i, v := range mySlice {
+	// 	fmt.Println(i, v)
+	// }
+
+	// myMaps := map[string]string{
+	// 	"fname" : "Anurag",
+	// 	"lname" : "Band",
+	// }
+
+	// for k, v := range myMaps {
+	// 	fmt.Println(k,"is",v)
+	// }
+
+	// unicode code point rune
+	// starting byte of rune
+	// 300 -> 1 byte, 2 byte
+	// for i, c := range "Anurag" {
+	// 	fmt.Println(i, c)
+	// }
+
 }
