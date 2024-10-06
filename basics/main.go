@@ -214,7 +214,6 @@ func main() {
 	// copy(num2, num1)
 	// fmt.Println(num1, num2)
 
-
 	//? slice operator
 
 	// var nums = []int{1,2,3,4,5}
@@ -236,5 +235,73 @@ func main() {
 	// twoDslice := [][]int{{12, 34}, {56, 76}}
 
 	// fmt.Println(twoDslice)
+
+	//? maps
+	// - key value pair - //? like object in javascript
+
+	// m := make(map[string]string)
+
+	// m["name"] = "Anurag"
+	// m["position"] = "Software Developer"
+	// m["delete"] = "Delete ME !"
+	// fmt.Println(m)
+
+	// deleting key:value pair
+	// delete(m, "delete")
+	// fmt.Println(m)
+
+	// getting length
+	// fmt.Println(len(m))
+
+	// clearing map
+	// clear(m)
+	// fmt.Println(m)
+
+	//? using object construct with interface{} for accepting any type of key:value pairs
+	// myMap := map[string]interface{}{
+	// 	"product": "Iphone 16 pro",
+	// 	"price" : "$1299",
+	// }
+	// fmt.Println(myMap)
+
+	// //? for compairng
+
+	// myMap1 := map[string]interface{}{
+	// 	"product": "Iphone 16 pro",
+	// 	"price" : 99000,
+	// }
+
+	// myMap2 := map[string]interface{}{
+	// 	"product": "Iphone 16 pro",
+	// 	"price" : 79000,
+	// }
+
+	// fmt.Println(maps.Equal(myMap1,myMap2))
+
+	//? for conditions
+
+	// myMap := map[string]interface{}{
+	// 	"product": "Iphone 16 pro",
+	// 	"price":   99000,
+	// }
+
+	// _, isOk := myMap["price"]
+
+	// if isOk {
+	// 	fmt.Println("all ok")
+	// } else {
+	// 	fmt.Println("not ok")
+	// }
+
+	// Use type assertion to get the price
+	// if price, ok := myMap["price"].(int); ok {
+	// 	if price < 100000 {
+	// 		fmt.Println("it's in our Budget!")
+	// 	} else {
+	// 		fmt.Println("it's out of our Budget!")
+	// 	}
+	// } else {
+	// 	fmt.Println("Price not found or not an integer.")
+	// }
 
 }
