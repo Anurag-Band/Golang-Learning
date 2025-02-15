@@ -374,4 +374,23 @@ func main() {
 	// result := sum(nums...)
 	// fmt.Println("Sum: ", result)
 
+	// ? Closures - ability of a function to be able to access variables & functions of it's parents is Closures
+
+	// counter := func() func() int {
+	// 	var count = 0
+
+	// 	return func() int {
+	// 		count += 1
+	// 		return count
+	// 	}
+	// }
+
+	// increment := counter()
+
+	// fmt.Println(increment())
+	// fmt.Println(increment())
+	// fmt.Println(increment())
+
+
+
 }
