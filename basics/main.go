@@ -327,4 +327,33 @@ func main() {
 	// 	fmt.Println(i, c)
 	// }
 
+	//? functions
+
+	// ? this traditional function declaration is only allowed outside before main(){} function
+	// func add(num1 int, num2 int) int {
+	// 	return num1 + num2
+	// }
+
+	// add := func (num1, num2 int) int  {
+	// 	return num1 + num2
+	// }
+	// result := add(2,3)
+	// fmt.Println(result)
+
+	//? first class functions - can be input to a function
+	//?				          - can be output from a function
+
+	// processIt := func(fn func(a int) int) func(int) int {
+	// 	return func(a int) int {
+	// 		return fn(a)
+	// 	}
+	// }
+
+	// fn := func(num int) int {
+	// 	return num
+	// }
+
+	// newFunc := processIt(fn)
+	// result := newFunc(5)
+	// fmt.Println(result) 
 }
