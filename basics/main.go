@@ -355,5 +355,23 @@ func main() {
 
 	// newFunc := processIt(fn)
 	// result := newFunc(5)
-	// fmt.Println(result) 
+	// fmt.Println(result)
+
+	// ? Variadic Functions - can take n number of parameters
+
+	// sum := func(nums ...int) int {
+	// 	total := 0
+
+	// 	for _, num := range nums {
+	// 		total = total + num
+	// 	}
+
+	// 	return total
+	// }
+
+	// nums := []int{1, 2, 3, 4, 5}
+
+	// result := sum(nums...)
+	// fmt.Println("Sum: ", result)
+
 }
