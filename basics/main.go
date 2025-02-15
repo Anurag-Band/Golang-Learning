@@ -391,6 +391,31 @@ func main() {
 	// fmt.Println(increment())
 	// fmt.Println(increment())
 
+	// ? Pointers
 
+	// ? by value
+	// num := 1
+
+	// changeNumbyValue := func(num int) {
+	// 	num = 5
+	// 	fmt.Println("In Func: ", num)
+	// }
+
+	// changeNumbyValue(num)
+
+	// fmt.Println("In Main: ", num)
+
+
+	// ? by reference
+	// num := 1
+
+	// changeNumbyValue := func(num *int) {
+	// 	*num = 5
+	// 	fmt.Println("In Func: ", *num)
+	// }
+
+	// changeNumbyValue(&num)
+
+	// fmt.Println("In Main: ", num)
 
 }
